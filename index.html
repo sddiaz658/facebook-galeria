@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <center>
+                        <img src="img/redes-sociales.png" alt="telefono">
+                    </center>
+                    <h2><b>FACEBOOK</b></h2>
+                    <center>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="img/redess.png" alt="Redes">
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-7">
+                    <div class="container-log">
+                        <h2><b>Iniciar Sesión</b></h2>
+                        <center>
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="correo"
+                                        placeholder="Teléfono o correo electrónico" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="contraseña"
+                                        placeholder="Contraseña">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Iniciar</button>
+                                <a small id="emailHelp" class="form-text text-muted" data-toggle="modal"
+                                    data-target="#contrasenamodal">
+                                    <b>¿Olvidaste tu contraseña?</b>
+                                </a>
+                            </form>
+                        </center>
+                    </div>
+                    <div class="container-logg">
+                        <center>
+                            <form>
+                                <button type="submit" class="btn-btn-secudary" data-toggle="modal"
+                                    data-target="#crearmodal" data-aos="fade-up-right"><b>Crea una cuenta</b></button>
+                            </form>
+                        </center>
+                        <div class="row">
+                            <div class="col-md-3" data-aos="zoom-in-up">
+                                <a href="https://www.facebook.com/santiago.fernandez.9849">
+                                    <img src="img/perfil1.jpg" alt="perfil hombre">
+                                    <h5>Santiago Fernandez</h5>
+                                </a>
+                            </div>
+                            <div class="col-md-3" data-aos="zoom-in-up">
+                                <a href="https://www.facebook.com/profile.php?id=100010415329312">
+                                    <img src="img/perfil2.jpg" alt="perfil mujer">
+                                    <h5>Antonia Rodriguez</h5>
+                                </a>
+                            </div>
+                            <div class="col-md-3" data-aos="zoom-in-up">
+                                <a href="#correo">
+                                    <img src="img/perfil3.jpg" alt="agregar perfil">
+                                    <h5>Agrega una cuenta</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modalcontraseña -->
+        <div class="modal" id="contrasenamodal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><b>Recupera tu contraseña</b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Introduce el correo electrónico o el número de teléfono para buscar tu cuenta.</p>
+                        <center>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="correo" placeholder="Número de móvil"
+                                    aria-describedby="emailHelp">
+                            </div>
+                        </center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-btn-primary2" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn-btn-primary3"><b>Buscar</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fin modalcontraseña -->
+        <!-- modalcrear -->
+        <div class="modal" id="crearmodal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content" data-aos="fade-up-right">
+                    <div class="modal-header">
+                        <h3 class="modal-title"><b>Regístrate</b></h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p><small>Es rápido y fácil.</small></p>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+
+                                    <center><input type="email" class="form-control" id="inputEmail4"
+                                            placeholder="Nombres"></center>
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <center><input type="text" class="form-control" id="inputPassword4"
+                                            placeholder="Apellidos"></center>
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <center><input type="text" class="form-control" id="inputAddress"
+                                        placeholder="Número o correo electrónico"></center>
+                            </div>
+                            <div class="form-group">
+
+                                <center><input type="password" class="form-control" id="inputAddress2"
+                                        placeholder="Contraseña nueva"></center>
+                            </div>
+                            <h6>Fecha de nacimeinto</h6>
+                            <center>
+                                <div class="form-row">
+                                    <div class="form-group col-md-3">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>1</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                            <option>13</option>
+                                            <option>14</option>
+                                            <option>15</option>
+                                            <option>16</option>
+                                            <option>17</option>
+                                            <option>18</option>
+                                            <option>19</option>
+                                            <option>20</option>
+                                            <option>21</option>
+                                            <option>22</option>
+                                            <option>23</option>
+                                            <option>24</option>
+                                            <option>25</option>
+                                            <option>26</option>
+                                            <option>27</option>
+                                            <option>28</option>
+                                            <option>29</option>
+                                            <option>30</option>
+                                            <option>31</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Ene</option>
+                                            <option>Ene</option>
+                                            <option>Feb</option>
+                                            <option>Mar</option>
+                                            <option>Abr</option>
+                                            <option>May</option>
+                                            <option>Jun</option>
+                                            <option>Jul</option>
+                                            <option>Ago</option>
+                                            <option>Sep</option>
+                                            <option>Oct</option>
+                                            <option>Nov</option>
+                                            <option>Dic</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>1995</option>
+                                            <option>1960</option>
+                                            <option>1965</option>
+                                            <option>1970</option>
+                                            <option>1975</option>
+                                            <option>1980</option>
+                                            <option>1985</option>
+                                            <option>1990</option>
+                                            <option>1995</option>
+                                            <option>2000</option>
+                                            <option>2005</option>
+                                            <option>2010</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </center>
+                            <h6>Sexo</h6>
+                            <center>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                    Mujer
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                    Hombre
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </center>
+                            <p>
+                                <small>Al hacer clic en Registrarte, aceptas las Condiciones, la Política de datos y la
+                                    Política de cookies. Es posible que te enviemos notificaciones por SMS que podrás
+                                    desactivar cuando quieras.</small>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" id="correo" class="btn-btn-primary4">
+                            <a href="#correo"></a>
+                            <b>Regístrate</b>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fin modal crear -->
+    </header>
+
+
+
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

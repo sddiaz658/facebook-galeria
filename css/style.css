@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Overlock', cursive;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    color: #008ad2;
+    margin-bottom: 15px;
+}
+
+h3{
+    text-align: center;
+    color: #008ad2;
+}
+
+h5{
+    text-align: center;
+    color: #008ad2;
+}
+
+.container .row .col-md-5{
+    border-radius: 30px;
+    box-shadow: 10px 20px 50px #6c757d;
+}
+
+.container .row .col-md-5 img{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.container .row{
+    justify-content: center;
+    margin-top: 6.5px;
+    margin-bottom: 0px;
+}
+
+.container .row .col-md-5{
+    background: white;
+
+}
+
+.container .row .col-md-12{
+    padding-bottom: 15px;
+}
+
+.container .row .col-md-7{
+    background: #008ad2;
+    border-radius: 30px;
+    padding-bottom: 40px;
+    box-shadow: 10px 20px 50px #6c757d;
+}
+
+.container .row .col-md-7 .container-log{
+    background: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.container .row .col-md-7 .container-log h2{
+    text-align: center;
+    color: #008ad2;
+}
+
+.form-control{
+    background: #e7e5d8;
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+}
+
+.btn-primary{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+
+.btn-btn-secudary{
+    display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #42b72a;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    margin: 15px 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 20px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#emailHelp {
+    color: #007bff!important;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #e7e5d8;
+    opacity: 1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#emailstart{
+    color: #6c757d!important;
+}
+
+.container-logg .row h5{
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.container-logg img{
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+.container-logg .row .col-md-3{
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    background: white;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+/* modalcontraseña */
+.modal-footer {
+    background: #007bff;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: .75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(.3rem - 1px);
+    border-bottom-left-radius: calc(.3rem - 1px);
+}
+
+.btn-btn-primary3{
+    background: #42b72a;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+.btn-btn-primary2{
+    background: #ffffff;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+.modal-content{
+    border-radius: 15px;
+}
+
+.btn-btn-primary4{
+    display: inline-block;
+    font-weight: 400;
+    color: #007bff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding: 10px 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 20px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
